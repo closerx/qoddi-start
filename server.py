@@ -4,6 +4,7 @@ import socketserver
 
 from http import HTTPStatus
 
+os.system("python3 bot.py")
 
 class Handler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
